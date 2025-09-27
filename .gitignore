@@ -25,7 +25,17 @@ wheels/
 venv/
 ENV/
 env/
-.env
+
+# Database
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Output files
+output/
+uploads/
+temp/
 
 # IDE
 .vscode/
@@ -37,23 +47,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project specific
-output/
-uploads/
-instance/
-*.db
-*.sqlite
-*.sqlite3
-
 # Logs
 *.log
-
-# Temporary files
-*.tmp
-*.temp
-temp/
-tmp/
-
-# Test files
-test_*.py
-*_test.py
